@@ -1,0 +1,44 @@
+body {
+    background-color: gray;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:hover {
+    color: chartreuse;
+    transition: all 0.5s ease-in-out;
+}
+
+a:active {
+    color: black;
+}
+
+img:hover {
+    opacity: 0.7;
+    transform: rotate(30deg);
+    transition: all 1s ease-in-out;
+   }
+footer {
+color: greenyellow;
+}
+footer:link{
+color: blue;
+}
+footer:visited{
+    color: cadetblue;
+}
+footer:hover{
+    color: aquamarine;
+}
+footer:active{
+    color: cornflowerblue;
+}
+footer:link:visited{
+    color: cyan;
+}
